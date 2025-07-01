@@ -1,8 +1,8 @@
 name: first workflow
 on: push
 jobs:
-  first:
-    runs on: ubuntu-latest
+  Greet:
+    runs-on: ubuntu-latest
     steps:
-      -name: greeting
-      run: echo"welcome to first workflow"
+      - name: greeting
+        run: echo"welcome to first workflow"
