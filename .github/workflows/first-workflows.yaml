@@ -6,3 +6,5 @@ jobs:
     steps:
       - name: greeting
         run: echo "welcome to first workflow"
+      - name: welcome
+        run: echo "welcome to github actions"
