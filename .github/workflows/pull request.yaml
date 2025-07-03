@@ -1,7 +1,7 @@
 name: on pull request
 on: pull_request
 jobs:
-  my job:
+  pr_check:
     runs-on: ubuntu_latest
     steps:
       - name: pull request job
