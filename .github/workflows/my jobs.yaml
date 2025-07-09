@@ -1,0 +1,15 @@
+name: single job multiple steps
+on: workflow_dispatch
+jobs:
+  first_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: shell command steps
+        run: echo "hello world"
+      - name: Checkout
+        uses: actions/checkout@v4.2.2 
+      - name: lists and folders
+        run: ls -a
+      
+        
+    
