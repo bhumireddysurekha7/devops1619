@@ -1,9 +1,9 @@
 name: On Push to Main
 
-on:
-  push:
-    branches:
-      - main
+on: workflow_dispatch
+ # push:
+ #   branches:
+  #    - main
 
 jobs:
   push-main:
