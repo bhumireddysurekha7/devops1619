@@ -4,10 +4,12 @@ on:
   pull_request:
     branches:
       - main
+      - dev
+      - qa
 
 jobs:
   pr-check:
     runs-on: ubuntu-latest
     steps:
       - name: Run on Pull Request
-        run: echo "Pull request opened against main!"
+        run: echo "Pull request raised"
