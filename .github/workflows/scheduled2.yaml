@@ -3,10 +3,10 @@ on:
   schedule:
     - cron: '*/2 * * * *' 
 jobs:
-   2mins-job:
-     runs-on: ubuntu-latest
+   _2mins-job:
+     runs-on: ubuntu-latest 
      steps:
-       name: 2min
+       name: 2mins-job
        run: echo "running for every 2mins"
  
     
