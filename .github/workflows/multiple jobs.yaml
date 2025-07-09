@@ -8,8 +8,9 @@ jobs:
         run: echo "hello world" 
         
   second_job:
-     runs-on: ubuntu_latest
-     steps:
-       - name: print date
-         run: date
+    needs: first_job
+    runs-on: ubuntu_latest
+    steps:
+      - name: print date
+        run: date
     
