@@ -1,8 +1,8 @@
 name: Scheduled Run
 
-on:
-  schedule:
-    - cron: '* * * * *' 
+on: workflow_dispatch
+ # schedule:
+  #  - cron: '* * * * *' 
 
 jobs:
   db-backup:
